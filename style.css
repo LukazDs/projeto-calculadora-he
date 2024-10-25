@@ -24,6 +24,16 @@ body {
     border-bottom: black 2px solid;
 }
 
+.tecla{
+    background-color: aliceblue;
+    width: 80px;
+    height: 80px;
+    margin: 7px;
+}
+
 .teclas {
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
